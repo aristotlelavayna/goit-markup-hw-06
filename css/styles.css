@@ -473,7 +473,6 @@ h2 {
     color: var(--WHITE);
     padding-left: 155px;
     margin-top: 0px;
-
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -484,7 +483,7 @@ h2 {
 
 /* ==footer-form section== */
 
-.foot-sub {
+.foot-sub-text {
     color: var(--WHITE);
     font-family: Roboto;
     font-size: 16px;
@@ -492,12 +491,33 @@ h2 {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
+    margin-top: 0px;
+    padding-left: 55px;
 }
 
-.send-icon use {
-    fill: var(--IRIS);
+.foot-email {
+    width: 264px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid var(--WHITE, #FFF);
+    box-shadow: 0px 4px 4px 0px #00000026;
+    background: var(--NAVY-BLUE, #2E2F42);
+
+    fill: var(--WHITE, #FFF);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+    padding: 2px 16px;
+    -webkit-text-fill-color: var(--WHITE);  
 }
 
+.foot-form {
+    padding-left: 55px;
+}
 
 /* ==end of footer-form section== */
 
