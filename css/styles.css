@@ -473,10 +473,37 @@ h2 {
     color: var(--WHITE);
     padding-left: 155px;
     margin-top: 0px;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    }
+
+/* ==footer-form section== */
+
+.foot-sub {
+    color: var(--WHITE);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
+
+.send-icon use {
+    fill: var(--IRIS);
+}
+
+
+/* ==end of footer-form section== */
+
 /* end of footer */
 
-/* PORTFOLIO PAGE!!! */
+/* ===PORTFOLIO PAGE!!!=== */
 
 /* filter-buttons start*/
 .filter-list {
@@ -597,4 +624,5 @@ h2 {
     background: var(--WHITE, #FFF);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
+
 /* end of project cards */
