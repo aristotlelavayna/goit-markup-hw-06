@@ -8,6 +8,7 @@
     --OCEAN: #404BBF;
     --LIGHT-SLATE: #8E8F99;
     --DAIRY: #FCFCFC;
+    --NAVY-BLUE-MODAL: #2E2F4266;
 }
 
 .container {
@@ -225,7 +226,7 @@ h1 {
 
 .service-input {
     padding: 12px 40px;
-    border: 1px solid var(--NAVY-BLUE);
+    border: 1px solid var(--NAVY-BLUE-MODAL);
     border-radius: 4px;
     transition: 250ms;
     transition-property: color, border-color, background-color;
@@ -240,7 +241,8 @@ h1 {
     transition: fill 250ms cubic-bezier (0.4, 0, 0.2, 1);
 }
 
-.service-input:hover {
+.service-input:hover,
+.service-input:focus {
     border: 1px solid var(--IRIS);
 }
 
