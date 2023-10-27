@@ -279,30 +279,7 @@ h1 {
     border: 1px solid var(--IRIS);
 }
 
-.checkbox {
-    margin-bottom: 24px;
-}
 
-.checkbox input {
-    color: var(--LIGHT-SLATE, #8E8F99);
-    font-family: Roboto;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0.48px;
-}
-
-.checkbox span {
-    color: var(--IRIS, #4D5AE5);
-    font-family: Roboto;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 16px;
-    letter-spacing: 0.48px;
-    text-decoration-line: underline;
-}
 
 .form-btn {
     width: 169px;

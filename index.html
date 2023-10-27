@@ -76,9 +76,12 @@
                         <span class="input-label">Comment</span>
                         <textarea class="service-input-textarea" rows="8" placeholder="Text input"></textarea>
                     </label>
-                    <label class="checkbox">
-                        <input type="checkbox">I accept the terms and conditions of the 
-                        <span>Privacy Policy</span>
+                    <label for="agree" class="service-agree">
+                        <input type="checkbox" name="agree" class="agree-checkbox">
+                        <svg width="16" height="16" class="agree-check-icon">
+                            <use href="./images/icons.svg#checkbox"></use>
+                        </svg>
+                        <span class="agree-text">I accept the terms and conditions of the<a href="#">Privacy Policy</a></span>
                     </label>
                     <button type="button" class="form-btn">Send</button>
                 </form>
