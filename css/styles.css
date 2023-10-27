@@ -421,9 +421,7 @@ h2 {
 
 .team-section {
     background-color: var(--CLOUD);
-    width: 1440px;
     height: 780px;
-    flex-shrink: 0;
 }
 
 .team-list {
@@ -451,6 +449,7 @@ h2 {
     padding: 10px;
     border-radius: 50%;
     fill: var(--CLOUD);
+    display: flex;
 }
 /* end of team section */
 
@@ -503,7 +502,6 @@ h2 {
 
 .footer {
     color: var(--CLOUD, #F4F4FD);
-   
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -522,7 +520,6 @@ h2 {
 .footer-links svg {
     fill: var(--WHITE);
     display: flex;
-    
 }
 
 .footer-links-icon {
@@ -541,7 +538,7 @@ h2 {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
-    }
+}
 
 /* ==footer-form section== */
 
@@ -579,7 +576,6 @@ h2 {
     padding-left: 55px;
     display: flex;
     gap: 24px;
-    
 }
 
 .foot-sub-btn {
